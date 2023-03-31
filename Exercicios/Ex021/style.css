@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body{
+    font-family: sans-serif;
+    background-color: slategrey;
+
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 3px 9px rgba(0, 0, 0, 0.438);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+
+footer > p{
+    margin: 0px;
+}
+nav{
+    background-color: rgba(119, 136, 153, 0.589);
+    padding: 7px;
+    margin: 3px;
+    box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.363);
+}
+nav > a:hover{
+    color: darkred;
+}
+nav > a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
